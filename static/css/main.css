@@ -1,0 +1,37 @@
+body{
+    background:#EEE;
+    color:#333;
+    font-family:sans-serif;
+    line-height:2;
+    max-width:896px;
+    padding:64px 48px 48px;
+    -webkit-text-size-adjust: 100%;
+    text-align:justify;
+    margin:0 auto
+}
+img{max-width: 100%}
+#mainlink{background:#234;color:#CCC;position:absolute;top:0;left:0;right:0;border-bottom:5px solid #567}
+#mainlink a{display:block;height:16px;text-align:right;background:url('/static/img/logo.svg') left 10px center no-repeat;text-decoration:none;line-height:1;font-size:16px;padding:12px 12px 12px 50px;color:#CCC}
+h1{text-align:center;font-size:medium}
+.subheading{text-align:center}
+h2{font-size:medium;color:#234;border-bottom:1px solid #234}
+h3{font-size:medium}
+a{color:#39F}
+code{font-family:monospace}
+pre{background:#FFF;padding:0.5em 1em}
+p > code{background:#FC0;border:1px solid #CCC;color:#000}
+.notice{border:1px solid #F90;background:#FC0}
+p.notice{padding:0.5em 1em}
+.narration{font-size:small;color:#999}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    body{padding: 84px 28px 48px}
+    body > *{max-height:9999cm}
+}
+@media only screen and (max-width: 767px) {
+    body{padding: 84px 34px 48px}
+    body > *{max-height:9999cm}
+}
+@media only screen and (max-width: 480px) {
+    ul{padding-left:1em}
+    body{padding: 84px 22px 36px}
+}

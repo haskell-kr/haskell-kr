@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" xml:space="preserve">
+<circle cx="60" cy="60" r="50" fill="#FFF" stroke="#369"/>
+<path fill="#369" d="M92.5,55.5v-5.6l-4.2,3.7L92.5,55.5z"/>
+<path fill="#369" d="M79,44.2l-2.8-1.3l-4-1.6L71.5,41l-2.9-1.3l-3.4-1.4l-4.7-2l-4.6,2l-3.5,1.4l-2.8,1.2l-0.8,0.4l-3.9,1.6 l-2.8,1.2l-1.4,0.6l-4.6,2l-2.7,1.1l-4.8,2.1l4.2,3.7l3.1,2.7l3.5,3l3.8,3.3l4.3,3.7l4.7,4.2l0,0l8.3,7.2l8.3-7.2l4.7-4.2l4.4-3.7 l3.8-3.3l3.4-3l3.2-2.7l4.2-3.7l-4.9-2.1L85,46.7l-4.6-2L79,44.2z M75.9,47.7h7.6l2.1,4.6L83,51.1L57.7,70.4l-5.1-4.1l25.6-17.5 L75.9,47.7z M63.7,39l0.3,3.1l-1.7-0.8L37,53.5l-3-2.4l25-11.4L57.4,39H63.7z M73.7,46.7l-2.2-1L46.1,60.9l-3.9-3.2l25.5-13.9 l-1.9-0.9h6.9L73.7,46.7z"/>
+<path fill="#369" d="M85.1,61.2v-4.9l-3.4,3L85.1,61.2z"/>
+<path fill="#369" d="M77.9,69.1v-6.5l-4.4,3.7L77.9,69.1z"/>
+<path fill="#369" d="M32.8,53.6l-4.2-3.7v5.7L32.8,53.6z"/>
+<path fill="#369" d="M35.9,56.3v4.9l3.5-1.9L35.9,56.3z"/>
+<path fill="#369" d="M43.2,69.1l4.3-2.8l-4.3-3.7V69.1z"/>
+<path fill="#369" d="M60.5,77.7l-8.3-7.2v8l8.3,7.2V77.7z"/>
+<path fill="#369" d="M60.5,77.7v8l8.3-7.2v-8L60.5,77.7z"/>
+<line fill="none" stroke="#369" x1="92.5" y1="55.5" x2="92.5" y2="49.9"/>
+<polyline fill="none" stroke="#369" points="91.1,67.3 94.1,64.3 94.1,56.3 92.5,55.5 "/>
+<line fill="none" stroke="#369" x1="79" y1="44.2" x2="79" y2="41.3"/>
+<line fill="none" stroke="#369" x1="76.2" y1="42.9" x2="79" y2="41.3"/>
+<line fill="none" stroke="#369" x1="76.2" y1="42.9" x2="79" y2="44.2"/>
+<polyline fill="none" stroke="#369" points="87.6,44.7 83.2,42.9 80.4,44.7 "/>
+<line fill="none" stroke="#369" x1="80.4" y1="44.7" x2="79" y2="44.2"/>
+<line fill="none" stroke="#369" x1="85" y1="46.7" x2="87.6" y2="47.8"/>
+<line fill="none" stroke="#369" x1="87.6" y1="47.8" x2="87.6" y2="44.7"/>
+<line fill="none" stroke="#369" x1="85" y1="46.7" x2="87.6" y2="44.7"/>
+<line fill="none" stroke="#369" x1="80.4" y1="44.7" x2="85" y2="46.7"/>
+<line fill="none" stroke="#369" x1="71.5" y1="41" x2="71.5" y2="38.3"/>
+<polyline fill="none" stroke="#369" points="79,41.3 75.1,39.7 72.2,41.3 "/>
+<line fill="none" stroke="#369" x1="72.2" y1="41.3" x2="71.5" y2="41"/>
+<line fill="none" stroke="#369" x1="68.6" y1="39.7" x2="71.5" y2="41"/>
+<line fill="none" stroke="#369" x1="68.6" y1="39.7" x2="71.5" y2="38.3"/>
+<polyline fill="none" stroke="#369" points="71.5,38.3 68.1,36.9 65.2,38.3 "/>
+<polyline fill="none" stroke="#369" points="65.2,38.3 60.5,36.3 55.9,38.3 "/>
+<line fill="none" stroke="#369" x1="65.2" y1="38.3" x2="68.6" y2="39.7"/>
+<polyline fill="none" stroke="#369" points="75.2,83.1 75.2,75.1 68.8,70.5 "/>
+<line fill="none" stroke="#369" x1="68.8" y1="70.5" x2="73.5" y2="66.3"/>
+<polyline fill="none" stroke="#369" points="87.8,65.6 87.8,62.6 85.1,61.2 "/>
+<line fill="none" stroke="#369" x1="85.1" y1="56.3" x2="85.1" y2="61.2"/>
+<polyline fill="none" stroke="#369" points="91.1,67.3 91.1,59.3 85.1,56.3 "/>
+<line fill="none" stroke="#369" x1="77.9" y1="62.6" x2="81.7" y2="59.3"/>
+<polyline fill="none" stroke="#369" points="79.9,71.8 79.9,70.5 77.9,69.1 "/>
+<polyline fill="none" stroke="#369" points="84.1,74.3 87.8,70.6 87.8,65.6 "/>
+<polyline fill="none" stroke="#369" points="77.9,62.6 84.1,66.3 84.1,74.3 "/>
+<line fill="none" stroke="#369" x1="79.9" y1="71.8" x2="84.1" y2="74.3"/>
+<line fill="none" stroke="#369" x1="77.9" y1="69.1" x2="77.9" y2="62.6"/>
+<line fill="none" stroke="#369" x1="85.1" y1="61.2" x2="81.7" y2="59.3"/>
+<line fill="none" stroke="#369" x1="81.7" y1="59.3" x2="85.1" y2="56.3"/>
+<line fill="none" stroke="#369" x1="87.8" y1="65.6" x2="91.1" y2="67.3"/>
+<line fill="none" stroke="#369" x1="77.9" y1="69.1" x2="73.5" y2="66.3"/>
+<line fill="none" stroke="#369" x1="73.5" y1="66.3" x2="77.9" y2="62.6"/>
+<line fill="none" stroke="#369" x1="85.1" y1="56.3" x2="88.3" y2="53.6"/>
+<line fill="none" stroke="#369" x1="72.2" y1="41.3" x2="76.2" y2="42.9"/>
+<polyline fill="none" stroke="#369" points="55.9,38.3 53,36.9 49.6,38.3 "/>
+<line fill="none" stroke="#369" x1="55.9" y1="38.3" x2="52.4" y2="39.7"/>
+<line fill="none" stroke="#369" x1="49.6" y1="40.9" x2="49.6" y2="38.3"/>
+<line fill="none" stroke="#369" x1="49.6" y1="40.9" x2="48.8" y2="41.3"/>
+<polyline fill="none" stroke="#369" points="48.8,41.3 46,39.7 42.1,41.3 "/>
+<line fill="none" stroke="#369" x1="48.8" y1="41.3" x2="44.9" y2="42.9"/>
+<line fill="none" stroke="#369" x1="49.6" y1="38.3" x2="52.4" y2="39.7"/>
+<line fill="none" stroke="#369" x1="52.4" y1="39.7" x2="49.6" y2="40.9"/>
+<line fill="none" stroke="#369" x1="42.1" y1="41.3" x2="42.1" y2="44.1"/>
+<line fill="none" stroke="#369" x1="42.1" y1="44.1" x2="40.7" y2="44.7"/>
+<polyline fill="none" stroke="#369" points="40.7,44.7 37.9,42.9 33.4,44.7 "/>
+<line fill="none" stroke="#369" x1="28.6" y1="49.9" x2="32.8" y2="53.6"/>
+<line fill="none" stroke="#369" x1="28.6" y1="55.6" x2="32.8" y2="53.6"/>
+<line fill="none" stroke="#369" x1="28.6" y1="49.9" x2="28.6" y2="55.6"/>
+<line fill="none" stroke="#369" x1="33.4" y1="47.8" x2="28.6" y2="49.9"/>
+<line fill="none" stroke="#369" x1="40.7" y1="44.7" x2="36.1" y2="46.7"/>
+<line fill="none" stroke="#369" x1="33.4" y1="44.7" x2="36.1" y2="46.7"/>
+<line fill="none" stroke="#369" x1="36.1" y1="46.7" x2="33.4" y2="47.8"/>
+<line fill="none" stroke="#369" x1="33.4" y1="44.7" x2="33.4" y2="47.8"/>
+<line fill="none" stroke="#369" x1="35.9" y1="56.3" x2="35.9" y2="61.2"/>
+<line fill="none" stroke="#369" x1="35.9" y1="61.2" x2="39.4" y2="59.3"/>
+<line fill="none" stroke="#369" x1="35.9" y1="56.3" x2="39.4" y2="59.3"/>
+<polyline fill="none" stroke="#369" points="28.6,55.6 27,56.3 27,64.3 30,67.3 "/>
+<polyline fill="none" stroke="#369" points="33.3,65.6 33.3,62.6 35.9,61.2 "/>
+<polyline fill="none" stroke="#369" points="43.2,69.1 41.2,70.5 41.2,71.8 "/>
+<polyline fill="none" stroke="#369" points="43.2,62.6 37,66.3 37,74.3 "/>
+<line fill="none" stroke="#369" x1="37" y1="74.3" x2="41.2" y2="71.8"/>
+<polyline fill="none" stroke="#369" points="35.9,56.3 30,59.3 30,67.3 "/>
+<line fill="none" stroke="#369" x1="30" y1="67.3" x2="33.3" y2="65.6"/>
+<polyline fill="none" stroke="#369" points="33.3,65.6 33.3,70.6 37,74.3 "/>
+<line fill="none" stroke="#369" x1="47.5" y1="66.3" x2="43.2" y2="69.1"/>
+<line fill="none" stroke="#369" x1="52.2" y1="70.5" x2="52.2" y2="70.5"/>
+<polyline fill="none" stroke="#369" points="45.8,83.1 45.8,75.1 52.2,70.5 "/>
+<line fill="none" stroke="#369" x1="47.5" y1="66.3" x2="52.2" y2="70.5"/>
+<line fill="none" stroke="#369" x1="43.2" y1="69.1" x2="43.2" y2="62.6"/>
+<line fill="none" stroke="#369" x1="43.2" y1="62.6" x2="47.5" y2="66.3"/>
+<line fill="none" stroke="#369" x1="32.8" y1="53.6" x2="35.9" y2="56.3"/>
+<line fill="none" stroke="#369" x1="39.4" y1="59.3" x2="43.2" y2="62.6"/>
+<line fill="none" stroke="#369" x1="42.1" y1="41.3" x2="44.9" y2="42.9"/>
+<line fill="none" stroke="#369" x1="44.9" y1="42.9" x2="42.1" y2="44.1"/>
+<line fill="none" stroke="#369" x1="45.8" y1="83.1" x2="52.2" y2="78.5"/>
+<polyline fill="none" stroke="#369" points="41.2,71.8 41.2,78.5 45.8,83.1 45.8,83.1 "/>
+<polyline fill="none" stroke="#369" points="68.8,78.5 75.2,83.1 75.2,83.1 "/>
+<line fill="none" stroke="#369" x1="52.2" y1="70.5" x2="60.5" y2="77.7"/>
+<line fill="none" stroke="#369" x1="60.5" y1="85.7" x2="60.5" y2="77.7"/>
+<line fill="none" stroke="#369" x1="52.2" y1="78.5" x2="60.5" y2="85.7"/>
+<line fill="none" stroke="#369" x1="60.5" y1="85.7" x2="68.8" y2="78.5"/>
+<polyline fill="none" stroke="#369" points="75.2,83.1 79.9,78.5 79.9,71.8 "/>
+<line fill="none" stroke="#369" x1="52.2" y1="70.5" x2="52.2" y2="78.5"/>
+<line fill="none" stroke="#369" x1="60.5" y1="77.7" x2="68.8" y2="70.5"/>
+<line fill="none" stroke="#369" x1="68.8" y1="70.5" x2="68.8" y2="78.5"/>
+<line fill="none" stroke="#369" x1="92.5" y1="55.5" x2="88.3" y2="53.6"/>
+<line fill="none" stroke="#369" x1="88.3" y1="53.6" x2="92.5" y2="49.9"/>
+<line fill="none" stroke="#369" x1="92.5" y1="49.9" x2="87.6" y2="47.8"/>
+</svg>

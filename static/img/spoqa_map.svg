@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="896px" height="480px" viewBox="0 0 896 480" enable-background="new 0 0 896 480" xml:space="preserve">
+<g>
+    <path fill="#CCC" d="M896,480V0H0v480H896z"/>
+	<path fill="#FFF" d="M286.4-171l-18.6,7.5L411,190.7L93.9,318.8L-34.9-0.1l-18.6,7.5L75.3,326.3L-250,457.8l29.9,74.2
+		l325.4-131.5l74.9,185.4l18.6-7.5L123.9,393l317-128.1l159.6,394.9l18.6-7.6L459.5,257.4l182.6-73.8l205.3,508l18.6-7.5l-205.3-508
+		l175.2-70.8l179.8,445l18.5-7.5L854.4,97.9l111.3-45l-29.9-74.2l-111.4,45l-69.2-171.5l-18.6,7.5l69.3,171.5L429.5,183.3L286.4-171
+		z"/>
+	<path fill="#FFF" d="M788.7,247.6h-13.9V326h112.1v-78.4h-77.2l-25.3-16.8L788.7,247.6z"/>
+
+    <rect x="261.5" y="230.5" width="21" height="21" style="fill:#FC0;stroke-width:3;stroke:#FFF"/>
+	<text font-family="sans-serif" transform="matrix(1 0 0 1 265 245)" font-size="12">10</text>
+
+    <rect x="296.5" y="315.5" width="21" height="21" style="fill:#FC0;stroke-width:3;stroke:#FFF"/>
+	<text font-family="sans-serif" transform="matrix(1 0 0 1 304 330)" font-size="12">1</text>
+
+	<text font-family="sans-serif" transform="matrix(1 0 0 1 254 370)" font-size="16">선릉역 1번 출구</text>
+    <path fill="#093" d="M230.1,320.8l-12.4-30.6L-34.4,392l12.3,30.6L230.1,320.8z"/>
+	<text font-family="sans-serif" transform="matrix(0.9272 -0.3746 0.3746 0.9272 445.45 227.65)" font-size="24">테헤란로</text>
+	<text font-family="sans-serif" transform="matrix(0.9272 -0.3746 0.3746 0.9272 76.95 369.3502)" fill="#FFF" font-size="16">선릉역</text>
+    <path fill="#FFF" d="M742.4,233.5l-22.5-55.7l-42.7,17.3l22.5,55.6L742.4,233.5z"/>
+    <path stroke="#FFF" stroke-width="3" fill="#06C" d="M792.4,213.5l-22.5-55.7l-42.7,17.3l22.5,55.6L792.4,213.5z"/>
+    <path fill="#FFF" d="M777.4,154.5l17.6,43.6l62.2-25.1l-17.6-43.6L777.4,154.5z"/>
+	<text font-family="sans-serif" transform="matrix(1 0 0 1 784 270)" font-size="16">하이리빙빌딩</text>
+	<text font-family="sans-serif" transform="matrix(1 0 0 1 784 293)" font-size="16">9층</text>
+	<text font-family="sans-serif" transform="matrix(1 0 0 1 784 316)" font-size="16">스포카</text>
+	<text font-family="sans-serif" transform="matrix(0.3746 0.9272 -0.9272 0.3746 451.4 274)" font-size="12">테헤란로64길</text>
+	<text font-family="sans-serif" transform="matrix(0.3746 0.9272 -0.9272 0.3746 654.5 199)" font-size="12">테헤란로68길</text>
+	<text font-family="sans-serif" transform="matrix(0.3746 0.9272 -0.9272 0.3746 849.45 123)" font-size="12">테헤란로70길</text>
+</g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px" height="120px" viewBox="0 0 120 120" xml:space="preserve">
+<circle cx="60" cy="60" r="50" fill="#FFF" stroke="#369"/>
+<path fill="#369" stroke="#369" d="M45.3,72.2l-9.8-6.6l3.7,11.2l8.5,6.4L45.3,72.2z"/>
+<path fill="#369" stroke="#369" d="M50.1,84.9l10.4,7.9V82.4L48,74L50.1,84.9z"/>
+<path fill="#369" stroke="#369" d="M40.5,50.8l-0.3-0.2l-11.7-5.8l5.8,17.4l10.2,6.6L40.5,50.8z"/>
+<path fill="#369" stroke="#369" d="M44.1,52.6H44l3.4,18l13.1,8.5l0,0V60.8L44.1,52.6z"/>
+<polyline fill="none" stroke="#369" points="80.5,50.8 80.5,50.8 64,44.8 76.5,40 92.5,44.8 "/>
+<line fill="none" stroke="#369" x1="80.7" y1="50.7" x2="92.5" y2="44.8"/>
+<line fill="none" stroke="#369" x1="77" y1="52.5" x2="77" y2="52.5"/>
+<polyline fill="none" stroke="#369" points="92.5,44.8 86.7,62.2 76.5,68.8 80.5,50.8 "/>
+<polyline fill="none" stroke="#369" points="77,52.5 73.7,70.6 60.5,79.1 "/>
+<polyline fill="none" stroke="#369" points="75.8,72.2 73.3,83.2 81.9,76.8 85.6,65.6 75.8,72.2 "/>
+<polyline fill="none" stroke="#369" points="48,38.9 60.5,43.5 73,38.9 60.5,35.2 48,38.9 "/>
+<polyline fill="none" stroke="#369" points="40.2,50.6 40.5,50.8 57,44.8 44.5,40 28.5,44.8 "/>
+<polyline fill="none" stroke="#369" points="44,52.5 60.5,46.1 77,52.5 "/>
+<polyline fill="none" stroke="#369" points="60.5,92.8 71,84.9 73,74 60.5,82.4 "/>
+<line fill="none" stroke="#369" x1="60.5" y1="60.8" x2="76.5" y2="52.8"/>
+</svg>
