@@ -365,6 +365,14 @@ nav a:hover {
   background: rgba(255,255,255,0.5);
   color: #369;
 }
+.notice {
+  background: #fc0;
+  padding: 1px 16px;
+}
+.notice p,
+.notice ul {
+  margin: 8px 0;
+}
 #footer {
   padding: 16px;
   text-align: center;
