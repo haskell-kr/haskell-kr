@@ -24,6 +24,22 @@ a:hover {
   color: #000;
   text-decoration: none;
 }
+#gohome {
+  height: 80px;
+  background: #369;
+  border-bottom: 1px solid #c90;
+  margin: 0;
+}
+#gohome a {
+  display: block;
+  width: 200px;
+  height: 80px;
+  margin: 0 auto;
+  background: url("/static/img/haskell-kr_typo.svg") center center no-repeat;
+}
+#gohome span {
+  visibility: hidden;
+}
 h1.index {
   content: '';
   display: block;
@@ -32,7 +48,7 @@ h1.index {
   top: 0;
   left: 0;
   right: 0;
-  margin: 75px 0 0 0;
+  margin: 0;
   z-index: -2;
   background: #000;
 }
@@ -69,7 +85,7 @@ h1.index:after {
 #desc {
   max-width: 1020px;
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 40px;
   color: #fff;
   position: relative;
   z-index: 2;
@@ -100,10 +116,9 @@ h1.index:after {
 @media only screen and (max-width: 767px) {
   #desc {
     font-size: 16px;
-    width: 300px;
+    max-width: 300px;
     height: auto;
     padding: 0 20px;
-    margin-top: 120px;
   }
 }
 #next_meetup {
@@ -141,7 +156,7 @@ h1.index:after {
   line-height: 2;
 }
 #content {
-  margin: 100px auto 20px auto;
+  margin: 0 auto 20px auto;
   max-width: 720px;
   padding: 20px;
   line-height: 2;
@@ -294,76 +309,50 @@ h1.index:after {
 .pict_comm {
   background-image: url("/static/img/picto_school.svg");
 }
-nav {
-  background: #369;
-  height: 80px;
-  border-bottom: 1px solid #c90;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  font-weight: bold;
+nav.normalnav {
+  background: #fbf6dd;
+  border-top: 1px solid #ccc;
+  padding: 16px;
+  line-height: 2;
+}
+nav.normalnav h2 {
+  color: #543;
+  font-size: 1em;
   text-align: center;
 }
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  position: relative;
-}
-nav li {
-  display: inline;
-}
-nav a {
-  display: inline-block;
-  width: 140px;
-  height: 16px;
-  font-size: 16px;
-  padding: 32px 0;
-  color: #9cf;
+nav.normalnav a {
   text-decoration: none;
-  text-align: center;
+  color: #765;
+  display: block;
 }
-nav a:hover {
-  color: #fff;
+nav.normalnav a:hover {
+  color: #06c;
+  font-weight: bold;
 }
-#gohome a {
-  width: 200px;
-/*position absolutetop 0left 0*/
-  background: url("/static/img/haskell-kr_typo.svg") center center no-repeat;
-}
-#gohome span {
-  visibility: hidden;
-}
-@media only screen and (min-width: 768px) {
-  #english a {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 100px;
-    height: 16px;
-    padding: 12px;
-    font-size: 14px;
-    line-height: 1;
-    border: 1px solid rgba(255,255,255,0.5);
-    font-weight: normal;
-    color: rgba(255,255,255,0.5);
+@media only screen and (min-width: 767px) {
+  nav.normalnav {
+    text-align: center;
   }
-}
-@media only screen and (min-width: 768px) and (max-width: 1020px) {
-  #english a {
-    width: 60px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #english a {
+  nav.normalnav h2 {
     display: none;
   }
-}
-#english a:hover {
-  background: rgba(255,255,255,0.5);
-  color: #369;
+  nav.normalnav ul,
+  nav.normalnav li {
+    display: inline;
+  }
+  nav.normalnav a {
+    display: inline-block;
+    min-width: 6em;
+    padding: 0 1em;
+  }
+  nav.normalnav ul {
+    padding-left: 0;
+    border-right: 1px solid #edc;
+  }
+  nav.normalnav li {
+    border-left: 1px solid #edc;
+    margin-right: -4px;
+  }
 }
 .notice {
   background: #fc0;
