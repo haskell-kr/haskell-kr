@@ -3,6 +3,7 @@ body {
   font: 16px sans-serif;
   background: #fff;
   color: #246;
+  position: relative;
 }
 ul {
   padding-left: 24px;
@@ -23,6 +24,9 @@ a:visited {
 a:hover {
   color: #000;
   text-decoration: none;
+}
+.displayNone {
+  display: none;
 }
 #gohome {
   height: 80px;
@@ -309,50 +313,102 @@ h1.index:after {
 .pict_comm {
   background-image: url("/static/img/picto_school.svg");
 }
-nav.normalnav {
+.normalnav {
   background: #fbf6dd;
   border-top: 1px solid #ccc;
   padding: 16px;
   line-height: 2;
 }
-nav.normalnav h2 {
+.normalnav h2 {
   color: #543;
   font-size: 1em;
   text-align: center;
 }
-nav.normalnav a {
+.normalnav a {
   text-decoration: none;
   color: #765;
   display: block;
 }
-nav.normalnav a:hover {
+.normalnav a:hover {
   color: #06c;
   font-weight: bold;
 }
 @media only screen and (min-width: 767px) {
-  nav.normalnav {
+  .normalnav {
     text-align: center;
   }
-  nav.normalnav h2 {
+  .normalnav h2 {
     display: none;
   }
-  nav.normalnav ul,
-  nav.normalnav li {
+  .normalnav ul,
+  .normalnav li {
     display: inline;
   }
-  nav.normalnav a {
+  .normalnav a {
     display: inline-block;
     min-width: 6em;
     padding: 0 1em;
   }
-  nav.normalnav ul {
+  .normalnav ul {
     padding-left: 0;
     border-right: 1px solid #edc;
   }
-  nav.normalnav li {
+  .normalnav li {
     border-left: 1px solid #edc;
     margin-right: -4px;
   }
+}
+#popupNav {
+  z-index: 3;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.75);
+  padding: 0 32px;
+  text-align: center;
+}
+#popupNav h2 {
+  line-height: 1;
+  font-size: 16px;
+  margin: 32px;
+  color: #ccc;
+}
+#popupNav ul {
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+#popupNav a {
+  color: #ccc;
+  display: block;
+  text-decoration: none;
+  padding: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+#popupNav a:hover {
+  background: rgba(255,255,255,0.1);
+}
+@media only screen and (max-width: 767px) {
+  #popupNav {
+    left: 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #popupNav {
+    width: 256px;
+  }
+}
+a.menuButton {
+  z-index: 4;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80px;
+  height: 80px;
+  background: url("/static/img/hamburger.svg") center center no-repeat;
 }
 .notice {
   background: #fc0;
