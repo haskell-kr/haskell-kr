@@ -392,6 +392,7 @@ h1.index:after {
 @media only screen and (max-width: 767px) {
   #popupNav {
     left: 0;
+    background: #000;
   }
 }
 @media only screen and (min-width: 768px) {
