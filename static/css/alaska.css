@@ -138,6 +138,7 @@ h1.index:after {
   margin: 20px auto;
   border: 1px solid rgba(255,204,0,0.5);
   padding: 0 20px;
+  background: #f00;
 }
 #next_meetup a:hover {
   border-color: #fc0;
@@ -150,8 +151,11 @@ h1.index:after {
   margin-top: 0;
   padding: 16px;
 }
+#next_meetup p,
 #next_meetup ul {
   text-align: center;
+}
+#next_meetup ul {
   margin-top: 0;
   padding-left: 0;
   list-style: none;
