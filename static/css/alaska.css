@@ -138,7 +138,6 @@ h1.index:after {
   margin: 20px auto;
   border: 1px solid rgba(255,204,0,0.5);
   padding: 0 20px;
-  background: #f00;
 }
 #next_meetup a:hover {
   border-color: #fc0;
