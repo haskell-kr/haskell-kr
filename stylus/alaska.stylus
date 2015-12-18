@@ -1,0 +1,375 @@
+fg = #369
+halfwhite = rgba(255,255,255,0.5)
+soft = #DEF
+softpoint = #6CF
+golden = #CB0
+
+mins(buffer = 0px)
+    @media only screen and (max-width 1080px)
+        max-width 660px + buffer
+    @media only screen and (max-width 767px)
+        max-width 300px
+
+ws(buffer = 0px)
+    max-width 1020px + buffer
+    mins(buffer)
+
+body
+    margin 0
+    font 16px sans-serif
+    background #FFF
+    color #246
+    position relative
+
+ul
+    padding-left 24px
+    list-style-image url('/static/img/right_arrow.svg')
+
+blockquote
+    border-left 4px solid #69C
+    padding-left 16px
+    margin-left 0
+    margin-right 0
+
+a
+    color #06C
+
+a:visited
+    color #69C
+
+a:hover
+    color #000
+    text-decoration none
+
+.displayNone
+    display none
+
+#gohome
+    height 80px
+    background fg
+    border-bottom 1px solid #C90
+    margin 0
+
+    a
+        display block
+        width 200px
+        height 80px
+        margin 0 auto
+        background url('/static/img/haskell-kr_typo.svg') center center no-repeat
+
+    span
+        visibility hidden
+
+backdrop()
+    content ''
+    display block
+    height 600px
+
+    position absolute
+    top 0
+    left 0
+    right 0
+
+h1.index
+    backdrop()
+    margin 0
+
+    z-index -2
+    background #000
+
+    span
+        display none
+
+    &:before
+        backdrop()
+
+        z-index -1
+        background url('/static/img/group_1280.jpg') center center no-repeat
+        -webkit-filter blur(5px)
+        -moz-filter blur(5px)
+        -o-filter blur(5px)
+        -ms-filter blur(5px)
+        filter blur(5px)
+
+    &:after
+        backdrop()
+
+        z-index 0
+        background rgba(51,102,153,0.5)
+
+#desc
+    ws()
+    margin 0 auto
+    margin-top 40px
+    color #FFF
+    position relative
+    z-index 2
+    font-size 20px
+    text-align center
+    word-break keep-all
+    line-height 2
+    text-shadow #036 1px 1px
+
+    @media only screen and (min-width 768px) and (max-width 1080px)
+        font-size 18px
+        .connect
+            display block
+
+
+    @media only screen and (max-width 767px)
+        font-size 16px
+        max-width 300px
+        height auto
+        padding 0 20px
+
+#next_meetup
+    background transparent
+    position relative
+    margin 40px 0
+
+    a
+        display block
+        text-decoration none
+        color #FFF
+        width 260px
+        margin 20px auto
+        border 1px solid rgba(255,204,0,0.5)
+        padding 0 20px
+        &:hover
+            border-color #FC0
+            background rgba(51,102,153,0.5)
+
+    h2
+        text-align center
+        font-size 16px
+        border-bottom 1px solid halfwhite
+        margin-top 0
+        padding 16px
+    p,ul
+        text-align center
+    ul
+        margin-top 0
+        padding-left 0
+        list-style none
+    li
+        line-height 2
+
+#content
+    margin 0 auto 20px auto
+    max-width 720px
+    padding 20px
+
+    line-height 2
+
+    h1,h2,h3,h4
+        color #69C
+        font-weight normal
+
+    h1
+        margin-top 0
+        text-align center
+        font-size 32px
+        color #26A
+
+    h2
+        font-size 28px
+        border-bottom 1px solid #DEF
+
+    h3
+        font-size 24px
+
+    @media only screen and (max-width 767px)
+        h1
+        h2
+        h3
+        h4
+            font-size 16px
+
+    img
+        max-width 100%
+
+    p
+        text-align justify
+
+.section
+    background #FFF
+    border-top 1px solid #69C
+    padding 20px 0
+    position relative
+    z-index 1
+
+    h2
+        font-weight normal
+        text-align center
+        color #69C
+
+.stripe
+    background soft
+
+.cr
+    ws(60px)
+    margin 0 auto
+    &:after
+        content ''
+        display table
+        clear both
+
+.cp
+    max-width 720px
+    mins()
+    margin 0 auto
+    line-height 2
+    text-align justify
+
+.c3
+    width 300px
+    text-align justify
+    float left
+    margin 0 30px
+    h3
+        text-align center
+        font-weight normal
+    p
+        line-height 2
+        height 260px
+    @media only screen and (max-width 767px)
+        margin 0
+        float none
+
+.pict
+    h2
+        color fg
+        text-shadow #FFF 1px 1px
+        padding 140px 0 24px 0
+        background url('/static/img/picto_haskell.svg') top center no-repeat
+
+        padding-bottom 24px
+        border-bottom 1px solid #9BD
+        margin 16px auto
+        ws()
+
+    h3
+        color fg
+        padding-top 140px
+        background-position top center
+        background-repeat no-repeat
+
+.pict_perf
+    background-image url('/static/img/picto_shuttle.svg')
+.pict_corr
+    background-image url('/static/img/picto_gearshot.svg')
+.pict_conc
+    background-image url('/static/img/picto_chip.svg')
+.pict_comp
+    background-image url('/static/img/picto_cube.svg')
+.pict_tool
+    background-image url('/static/img/picto_monitor.svg')
+.pict_comm
+    background-image url('/static/img/picto_school.svg')
+
+.normalnav
+    background #FBF6DD
+    border-top 1px solid #CCC
+    padding 16px
+    line-height 2
+
+    h2
+        color #543
+        font-size 1em
+        text-align center
+    a
+        text-decoration none
+        color #765
+        display block
+        &:hover
+            color #06C
+            font-weight bold
+
+    @media only screen and (min-width 767px)
+        text-align center
+        h2
+            display none
+        ul, li
+            display inline
+        a
+            display inline-block
+            min-width 6em
+            padding 0 1em
+        ul
+            padding-left 0
+            border-right 1px solid #EDC
+        li
+            border-left 1px solid #EDC
+            margin-right -4px
+
+faintwhite = rgba(255, 255, 255, 0.1)
+
+#popupNav
+    z-index 3
+    position absolute
+    right 0
+    top 0
+    bottom 0
+    background rgba(0,0,0,0.75)
+    padding 0 32px
+    text-align center
+
+    h2
+        line-height 1
+        font-size 16px
+        margin 32px
+        color #CCC
+
+    ul
+        padding 0
+        list-style none
+        border-top 1px solid faintwhite
+
+    a
+        color #CCC
+        display block
+        text-decoration none
+        padding 16px
+        border-bottom 1px solid faintwhite
+        &:hover
+            background faintwhite
+
+    @media only screen and (max-width 767px)
+        left 0
+        background #000
+
+    @media only screen and (min-width 768px)
+        width 256px
+
+a.menuButton
+    z-index 4
+    cursor pointer
+    display block
+    position absolute
+    right 0
+    top 0
+    width 80px
+    height 80px
+    background url("/static/img/hamburger.svg") center center no-repeat
+
+.notice
+    background #FC0
+    padding 1px 16px
+
+    p,ul
+        margin 8px 0
+
+#footer
+    padding 16px
+    text-align center
+    font-size 14px
+    background soft
+    color #999
+    border-top 1px solid softpoint
+
+    a
+        color #69C
+
+@media only screen and (max-width 767px)
+    body > *
+        max-height 9999cm

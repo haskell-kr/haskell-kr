@@ -2,12 +2,12 @@ This is the source code/data of the website of [Haskell-KR](https://haskell.kr/)
 
 ## Test
 
-You need [Saha](https://github.com/kinoru/saha) to prepare and serve the website.
+haskell.kr is built with [Saha](https://github.com/kinoru/saha) and [Stylus](http://stylus-lang.com/).
 
 ```sh
 git clone --depth=1 https://github.com/haskell-kr/haskell-kr
 cd haskell-kr
-saha compile
+bash compile.sh
 saha server
 ```
 
