@@ -1,8 +1,8 @@
-This is the source code/data of the website of [Haskell-KR](https://haskell.kr/), the South Korean Haskellers' group.
+[하스켈 모임](https://haskell.kr/) 웹사이트의 소스 코드입니다.
 
-## Test
+## 테스트
 
-haskell.kr is built with [Saha](https://github.com/kinoru/saha) and [Stylus](http://stylus-lang.com/).
+[사하](https://github.com/kinoru/saha)와 [스타일러스](http://stylus-lang.com/)로 만들어져 있습니다.
 
 ```sh
 git clone --depth=1 https://github.com/haskell-kr/haskell-kr
@@ -11,4 +11,4 @@ bash compile.sh
 saha server
 ```
 
-Now go to <http://localhost:3000/>.
+이제 <http://localhost:3000/>을 열어보세요.
