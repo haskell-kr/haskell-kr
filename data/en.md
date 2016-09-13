@@ -19,10 +19,7 @@ For most programmers, it is extremely difficult to spend holidays on learning an
 ## Prerequisite
 
 - Bring your computer.
-- Before coming to the meetup, you are strongly recommended to set up a Haskell package system on your computer, at least to a level that an example from a library of your choice would compile. [Stack](https://github.com/commercialhaskell/stack) is the general recommendation.
-    - For OS X users, [Haskell for Mac OS X](https://ghcformacosx.github.io/) is highly recommended.
-    - For other platforms, follow the [install instruction of Stack](https://github.com/commercialhaskell/stack/blob/master/doc/install_and_upgrade.md).
-    - If you are a Unix user using bash, [Halcyon](https://halcyon.sh/) is an excellent choice. Its advantage is that you never have to compile a same version of library package multiple times, which usually happens a lot when sandboxing.
+- Before coming to the meetup, you are strongly recommended to set up a Haskell package system on your computer, at least to a level that an example from a library of your choice would compile. [Stack](https://github.com/commercialhaskell/stack) is the general recommendation. Please follow the [install instruction of Stack](https://github.com/commercialhaskell/stack/blob/master/doc/install_and_upgrade.md).
 - Set a personal goal. For example, write a simple web server app for uploading and downloading images.
 
 ## Registration
