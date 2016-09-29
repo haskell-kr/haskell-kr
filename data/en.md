@@ -25,4 +25,4 @@ For most programmers, it is extremely difficult to spend holidays on learning an
 ## Registration
 
 - [Ozinger IRC Network](http://ozinger.org) has a [#haskell](irc://irc.ozinger.org/#haskell) channel. Visit and leave us a line.
-- Alternatively tell [Kinoru (@ccpme)](https://twitter.com/ccpme), the organizer, that you're coming.
+- Alternatively tell [XT (@xtendo\_org)](https://twitter.com/xtendo_org), the organizer, that you're coming.
