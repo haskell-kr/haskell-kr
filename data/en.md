@@ -19,7 +19,7 @@ For most programmers, it is extremely difficult to spend holidays on learning an
 ## Prerequisite
 
 - Bring your computer.
-- Before coming to the meetup, you are strongly recommended to set up a Haskell package system on your computer, at least to a level that an example from a library of your choice would compile. [Stack](https://github.com/commercialhaskell/stack) is the general recommendation. Please follow the [install instruction of Stack](https://github.com/commercialhaskell/stack/blob/master/doc/install_and_upgrade.md).
+- Before coming to the meetup, you are strongly recommended to set up a Haskell package system on your computer, at least to a level that an example from a library of your choice would compile. [Stack](https://haskellstack.org) is the general recommendation. Please follow the [install instruction of Stack](https://docs.haskellstack.org/en/stable/install_and_upgrade/).
 - Set a personal goal. For example, write a simple web server app for uploading and downloading images.
 
 ## Registration
