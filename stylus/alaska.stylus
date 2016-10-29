@@ -31,6 +31,16 @@ blockquote
     margin-left 0
     margin-right 0
 
+code
+    color #741
+
+pre
+    background #369
+    padding .5em 1em
+
+    code
+        color #ccc
+
 a
     color #06C
 
