@@ -6,6 +6,7 @@ scp $CONFDIR/haskell.kr.nginx.conf $1:/tmp/
 scp $CONFDIR/haskell.kr.service $1:/tmp/
 ssh $1 -C "
 mkdir -p /home/ubuntu/haskell.kr &&
+sudo mkdir -p /var/log/nginx/haskell.kr &&
 sudo cp /tmp/haskell.kr.nginx.conf /etc/nginx/conf.d/ &&
 sudo cp /tmp/haskell.kr.service /etc/systemd/system/ &&
 sudo systemctl enable haskell.kr.service &&
