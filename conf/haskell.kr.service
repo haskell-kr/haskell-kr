@@ -5,9 +5,9 @@ After=network.target
 [Service]
 Restart=always
 RestartSec=30
-User=ubuntu
-WorkingDirectory=/home/ubuntu/haskell.kr
-ExecStart=/home/ubuntu/.local/bin/saha server -h https://haskell.kr -d -s /tmp/haskell.kr.sock
+User={{USER}}
+WorkingDirectory=/home/{{USER}}/haskell.kr
+ExecStart=/home/{{USER}}/.local/bin/saha server -h https://haskell.kr -d -s /tmp/haskell.kr.sock
 
 [Install]
 WantedBy=multi-user.target
